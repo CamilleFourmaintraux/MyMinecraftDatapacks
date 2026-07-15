@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "This datapack makes golden food cheaper, specifically golden carrots and golden apple. It also add a recipe for the enchanted golden apple, not the old recipe from 1.8 but a newer, less farmable/op recipe.
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}

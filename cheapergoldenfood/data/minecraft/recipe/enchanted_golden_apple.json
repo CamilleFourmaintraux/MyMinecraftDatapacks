@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "key": {
+    "#": "minecraft:gold_block",
+    "A": "minecraft:golden_apple",
+    "L": "minecraft:lapis_lazuli",
+    "D": "minecraft:diamond"
+  },
+  "pattern": [
+    "DLD",
+    "#A#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_golden_apple"
+  }
+}

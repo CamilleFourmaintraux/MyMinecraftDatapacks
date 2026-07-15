@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:apple"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_apple"
+  }
+}
