@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "This datapack makes all vanilla rails cheaper.",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}
