@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "This datapack makes some utensils cheaper: the map, the compass, the recovery compass, and the clock.",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}

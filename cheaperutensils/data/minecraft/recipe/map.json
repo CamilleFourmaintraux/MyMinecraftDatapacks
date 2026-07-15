@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "key": {
+    "#": "minecraft:paper",
+    "X": [
+      "minecraft:black_dye",
+      "minecraft:charcoal",
+      "minecraft:ink_sac"
+    ]
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:map"
+  }
+}
