@@ -1,0 +1,151 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 600
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:chicken_food",
+          "expand": true,
+          "weight": 25
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:chicken_food",
+          "expand": true,
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains",
+                  "minecraft:forest",
+                  "minecraft:flower_forest",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:old_growth_birch_forest",
+                  "minecraft:jungle",
+                  "minecraft:bamboo_jungle",
+                  "minecraft:sparse_jungle",
+                  "minecraft:swamp",
+                  "minecraft:mangrove_swamp",
+                  "minecraft:meadow",
+                  "minecraft:cherry_grove"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:villager_plantable_seeds",
+          "expand": true,
+          "weight": 25
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:villager_plantable_seeds",
+          "expand": true,
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:plains",
+                  "minecraft:sunflower_plains",
+                  "minecraft:forest",
+                  "minecraft:flower_forest",
+                  "minecraft:birch_forest",
+                  "minecraft:dark_forest",
+                  "minecraft:old_growth_birch_forest",
+                  "minecraft:jungle",
+                  "minecraft:bamboo_jungle",
+                  "minecraft:sparse_jungle",
+                  "minecraft:swamp",
+                  "minecraft:mangrove_swamp",
+                  "minecraft:meadow",
+                  "minecraft:cherry_grove"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine",
+          "weight": 100,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#minecraft:is_jungle"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hanging_roots",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad",
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#minecraft:is_river"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mud",
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#minecraft:is_river"
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": [
+                      "minecraft:swamp",
+                      "minecraft:mangrove_swamp"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

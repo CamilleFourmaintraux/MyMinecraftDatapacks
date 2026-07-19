@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "This datapack expands the loot that sniffers can uncover while digging. No overpowered items, no random out-of-place items -> only logical, balanced vanilla friendly loot.",
+    "min_format": [88, 0],
+    "max_format": [94, 1]
+  }
+}
