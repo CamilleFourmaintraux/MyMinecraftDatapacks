@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "This datapack adds a rare chance to find ores while mining stone (and stone-like blocks), making every block a little more interesting to mine.",
+    "min_format": [88, 0],
+    "max_format": [94, 1]
+  }
+}
