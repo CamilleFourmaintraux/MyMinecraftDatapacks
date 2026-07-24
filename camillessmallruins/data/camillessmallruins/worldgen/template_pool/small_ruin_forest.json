@@ -1,0 +1,42 @@
+{
+  "name": "camillessmallruins:small_ruin_forest",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "camillessmallruins:small_ruin_forest_1",
+        "processors": "camillessmallruins:ruined",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "camillessmallruins:small_ruin_forest_2",
+        "processors": "camillessmallruins:ruined",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "camillessmallruins:small_ruin_forest_3",
+        "processors": "camillessmallruins:ruined",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "camillessmallruins:small_ruin_forest_4",
+        "processors": "camillessmallruins:ruined",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

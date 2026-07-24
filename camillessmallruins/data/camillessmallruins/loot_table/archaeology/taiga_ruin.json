@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:flint", "weight": 15 },
+        { "type": "minecraft:item", "name": "minecraft:bone", "weight": 14 },
+        { "type": "minecraft:item", "name": "minecraft:rabbit_hide", "weight": 12 },
+        { "type": "minecraft:item", "name": "minecraft:coal", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:copper_nugget", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:iron_nugget", "weight": 8 },
+        { "type": "minecraft:item", "name": "minecraft:gold_nugget", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:emerald", "weight": 1 }
+      ]
+    }
+  ]
+}

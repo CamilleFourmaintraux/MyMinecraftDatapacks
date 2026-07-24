@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "camillessmallruins:small_ruin_forest",
+      "weight": 1
+    },
+    {
+      "structure": "camillessmallruins:small_ruin_taiga",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 8,
+    "salt": 471203856
+  }
+}
