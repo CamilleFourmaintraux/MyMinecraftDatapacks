@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    "#/ ",
+    "/  "
+  ],
+  "key": {
+    "#": "#truestonetools:stone_tool_materials",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "basicweapons:stone_glaive",
+    "count": 1
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "basicweapons"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "basicweapons"
+    }
+  ]
+}

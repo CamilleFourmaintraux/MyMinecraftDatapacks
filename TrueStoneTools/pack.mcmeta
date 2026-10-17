@@ -1,0 +1,34 @@
+{
+  "pack": {
+    "description": "Stone tools are crafted from stone and deepslate instead of their cobbled variants",
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 121
+    },
+    "min_format": 48,
+    "max_format": 121
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "legacy_1_21",
+        "formats": {
+          "min_inclusive": 48,
+          "max_inclusive": 56
+        },
+        "min_format": 48,
+        "max_format": 56
+      },
+      {
+        "directory": "spear_1_21_11",
+        "formats": {
+          "min_inclusive": 94,
+          "max_inclusive": 121
+        },
+        "min_format": 94,
+        "max_format": 121
+      }
+    ]
+  }
+}

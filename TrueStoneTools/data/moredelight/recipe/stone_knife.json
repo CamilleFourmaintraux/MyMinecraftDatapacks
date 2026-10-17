@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": "#truestonetools:stone_tool_materials",
+    "B": "minecraft:stick"
+  },
+  "result": {
+    "id": "moredelight:stone_knife",
+    "count": 1
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "moredelight"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "moredelight"
+    }
+  ]
+}
