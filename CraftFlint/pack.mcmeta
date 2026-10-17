@@ -1,0 +1,25 @@
+{
+  "pack": {
+    "description": "Craft 1 flint from 2 gravel (shapeless recipe)",
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 121
+    },
+    "min_format": 48,
+    "max_format": 121
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "legacy_1_21",
+        "formats": {
+          "min_inclusive": 48,
+          "max_inclusive": 56
+        },
+        "min_format": 48,
+        "max_format": 56
+      }
+    ]
+  }
+}
