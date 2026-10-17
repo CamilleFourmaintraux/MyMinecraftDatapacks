@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Sheep no longer drop wool when killed, only when sheared",
+    "pack_format": 57,
+    "supported_formats": [57, 101],
+    "min_format": 57,
+    "max_format": 101
+  }
+}

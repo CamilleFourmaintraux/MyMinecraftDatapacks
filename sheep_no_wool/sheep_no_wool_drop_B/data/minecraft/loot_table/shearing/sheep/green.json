@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:shearing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_wool"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:shearing/sheep/green"
+}
