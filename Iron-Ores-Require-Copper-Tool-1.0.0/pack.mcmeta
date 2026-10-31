@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Iron ores now require at least a copper pickaxe",
+    "min_format": 88,
+    "max_format": 94
+  }
+}
