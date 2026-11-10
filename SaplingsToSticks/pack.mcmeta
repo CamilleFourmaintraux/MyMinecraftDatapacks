@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "description": "Craft any sapling into a stick, modded saplings included.",
+    "pack_format": 48,
+    "supported_formats": [48, 94],
+    "min_format": 48,
+    "max_format": [94, 1]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_1_21",
+        "formats": [48, 48],
+        "min_format": 48,
+        "max_format": 48
+      }
+    ]
+  }
+}

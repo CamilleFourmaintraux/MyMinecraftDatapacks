@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#saplingstosticks:saplings"
+  ],
+  "result": {
+    "id": "minecraft:stick",
+    "count": 1
+  }
+}
